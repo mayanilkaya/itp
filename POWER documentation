@@ -1,0 +1,101 @@
+I started with the templates on github. I made the first function definition for print_graph and made n the variable.I wanted to get the templates ready first so then I moved on to get_power. I wrote:
+def get_power(x, 2):
+  return x ** 2
+print (get_power)
+since x is base and 2 is the power, I'm thinking this is how I'm going to reach y=x^2.
+Maybe this  should be the last step because it's going to basically give the equation for the graph. I'm trying to figure out the steps in between.
+If the print_graph function must print out the character * n number of times *in one line*, then n must be y? I hope I got that right.
+
+Before getting any further I want to make sure I have the get_power defined correctly. Apparently, I didn't. I had written x,2 inside the parenthesis when defining. I had to swap the 2 for n, because I realized that I have to define it first, without putting any numbers in. Most importantly I made a mistake after print. I only wrote print (get_power), without giving any values. So I kept the x, and wrote x,2 because we're looking for the second power of x.
+
+For this to work, x has to be defined. For x to be defined, we need to go back to the y=x^2 equation. but how are we going to know what x is? now i'm confused.
+
+I'm going to continue with this, adding for i in range.
+
+OHHH, x is going to be in range (-8, 8)!!!
+
+I feel like I have bits of information that I could use how, but I'm not really sure on how to. To remember how to use the for i in range, I'm revising the pyramid homework. I need to have a variable x that decides how many * we're going to need which is everything from -8, 8.
+
+I ran what I had but it says x is not defined. I put in for x in range (-8, 9) but it still says not defined. I'm trying to tell it that I want it to make the equation for every x value from -8, to 9 but I'm failing at it and I don't know how. I might ask a friend.
+
+## The next day:
+
+I showed the assignment to my sister's boyfriend who has a little knowledge about coding. He pointed out to me that I didn't define print_graph.
+
+### my thought process for the rest of the hw:
+
+"The print_graph function must print out the character * n number of times in one line and creates a new line at the end." - then n is basically the x value for every y.
+we have 17 lines. so for every line y is going to be ranging from -8, to 8. Ohhh  I thought that x waas going to be in that range but I hadn't count the number of stars on the graph. now I see that the -8, 8 range is for y actually.
+
+
+where is y and x = 0? right in the middle.
+ok i have to draw this on paper.
+the top line would be x = 64 and y = 8
+the line below that would be x = 49 and y = 7 and so on.
+
+I went back to the original templates,
+def print_gaph (n):
+  return y == n^2 because its printing it out n number of times. for example x = 64 and y = 8. ooh now i see n is the result of x^2.
+so this is wrong.
+ahh i don't know what the return is supposed to be!!!
+
+return and print should give me n times *.
+def print_graph (n):
+    print ("8" * n)
+
+creating a new line means looping?
+
+def print_graph (n):
+    print ("*" * n, end ' '\)
+           for i in range(-8, 9):
+def get_power(x, n):
+    return x ** n
+print (get_power (x,n))
+
+it says invalid syntax://
+
+def print_graph (n):
+    print ("*" * n, end ' '\)
+           for i in range(-8, 9):
+           print (i, end=" ")
+          print ()
+def get_power(x, n):
+    return x ** n
+print (get_power (x,n))
+
+### sunday
+ok so i started over.
+def print_graph(n):
+    print('*' * n)
+    def get_power(x, n):
+        return x ** n
+    print(get_power (x, n)
+          for i in range (-8, 9)
+          print ('*')
+
+what is n?
+its the exponent of x. we want the square of x so n should be two.
+BUT the n for print_graph is the result of x^2. i thought both were the same things but they mean different things.
+
+
+the result of get_power(x,2) mkust be n. then tir must print * n number of times. x should be in range from -8 to 9.
+
+i changed it a little bit to because I was gettin syntax errors. now i only have to define x ??
+
+def print_graph(n):
+    return('*' * n)
+print(print_graph)
+
+def get_power(x, n):
+        return x ** n
+print(get_power (x, 2))
+for i in range (-8, 9):
+    print ("*")
+
+I put for x in range instead of i. i changed its place with get_power so x would be defined first.
+
+now the answer is
+-8 -7 -6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6 7 8 64
+
+
+I can't get anywhere, i'm giving up
