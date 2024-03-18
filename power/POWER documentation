@@ -99,3 +99,16 @@ now the answer is
 
 
 I can't get anywhere, i'm giving up
+
+i came back to it. my dad wanted to help me out:))
+
+he knows nothing about coding but he insisted on asking chat gpt why my code wasn't working.
+
+i realized my code was missing a few steps after for i in range. i didn't put y = get_power(i, n)
+print(f"x={i}, y={y}")"
+
+we need those two steps because that's how we will actaully get to calculating the square of x.
+y + get_power(i, n) means y is the solution of x**n and x is defined as another variable (i) that is between the range of -8 and 9.
+so instead of the graph with stars, i got 17 lines of x=y^2.
+
+maybe that's better than what I had before.
