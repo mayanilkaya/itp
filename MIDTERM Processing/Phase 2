@@ -1,0 +1,40 @@
+# Midterm Documentation
+## Phase 2
+
+I have three shapes in my sketch: a line, a rectangle, and a triangle.
+
+I wanted to get all three shapes first. I started with the line. I wanted to
+have it in the middle of the screen so I made the coordinates (50, 0, 50, 100).
+
+Next, I coded the rectangle. First I put the coordinates on the reference page.
+
+Then I changed the coordinates to situate it in the center of the page and
+further down below.
+
+Next, I coded the triangle. I made the first x coordinate 25, bc that's
+what I want it to be right on top of the rectangle, and I want the base to be as long as the
+top side of the rectangle. I made the second x coordinate 50, because
+I want it to be centered. Then I played around to find what I wanted for the
+3rd x coordinate and ended up making it 74 so the right corner would touch
+the right side of the rectangle.
+
+I have to make the bottom line of the triangle straight and push it
+further above.
+
+### straightening the triangle:
+
+Left side is longer than the right side. I have to change the y coordinates.
+I changed the first y coordinate from 75 to 70, and it straightened out.
+
+### pushing it above:
+
+now I just want to have it right on top of the rectangle. The shapes might be too
+big to fit in to the little screen so I might have to adjust that later on.
+
+I made the second y coordinate 10, which made the top of the triangle go above.
+I have (25, 50, 50, 10, 74, 50) for my triangle. I need a smaller rectangle
+because my triangle is on my rectangle, not above it.
+
+I changed the rectangle coordinates to (25, 52, 50, 55).
+
+I have my shape!
