@@ -1,0 +1,21 @@
+# Midterm Documentation
+
+## Phase 4
+
+it took me a while to understand what I had to do.
+
+I'm dividing the canvas to a 20-by-20 grid, so the scale parameter
+should be 20.
+
+the hint on github gives me the clue on how to star.
+
+if the first loop goes thriugh the x-axis and the second one goes through the y-axis, and if
+s is 20, that means the code is going to make 20 shapes on the x axis and 20 on the y for every value we have on the canvas.
+
+i start with this:
+def draw():
+    for x in range(0, 0, 20):
+        drawObject(x, y, 20)
+
+
+I couldn't take it any further
