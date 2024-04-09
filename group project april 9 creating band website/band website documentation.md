@@ -45,4 +45,4 @@ Ryan was responsible of asset creation. He gave us the audios and the visual.
 
 this is the website:
 
-[band website](timothyjburns.github.io)
+[band website](https://timothyjburns.github.io/)
