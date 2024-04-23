@@ -1,0 +1,79 @@
+
+I started like this
+
+var i = prompt("Give me a number.")
+undefined
+let text = "#"
+undefined
+let result = text.repeat(i)
+undefined
+var i = prompt("Give me a number.");
+undefined
+let text = "#";
+undefined
+let result = text.repeat(i);
+undefined
+
+not working
+
+i want to be able to get the external input and console. log working first.
+
+so i just start with var i=prompt("give me a number.");
+console.log (i)
+
+and it prints out the number.
+Now I want to print # i times.
+
+going to start with a loop this time and forget what I did.
+
+our binding is size (=8?) so I should start with the variable size.
+
+size = 8
+
+Going back to previous assignments, I totally forgot about the whole xy grid thing.
+
+So if size is 8, height = y = 8 and width = x = 8.
+I want it to print # # # # 8 times basically. But it will keep adding one ' ', and subtracting one ' '.
+
+
+
+y=0 because that's where it's starting, y < size; y++ because this basically add 1 to y until it's no longer bigger
+than size (8) same goes for x.
+
+  let size = 8;
+    let chessboard= ''
+
+  for (let y = 0; y  < size; y++) {
+    for (let x = 0; x < size; x++) {
+
+       the first line starts with '', when both x and y=0.
+
+  I was running out of time so I did some research and found this book:
+
+  chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf
+
+There was the solution for it.  Looking at the solution did help me understand:
+
+for the first line x=0 and y=0. modulus 2 of that addition equals 0.
+when it equals to 0, it's going to start the line by printing ' '.
+if not, it's going to start the line by printing '#', and then print ' '.
+
+The lines where it starts with # is always an odd number, meaning they won't be divisible (is that thw rods???) (%2 won't equal to 0)
+And it's the opposite for the lines that start with ' '.
+
+and the last line with \n means create new line.
+
+This is actually so much simpler than I realized. It even took me a while to understand
+what the code meant. I need more practice!!!!
+
+
+      if ((x + y) % 2 == 0) {
+        chessboard += " ";
+      } else {
+        chessboard += "#";
+      }
+    }
+    chessboard += "\n";
+  }
+
+  console.log(chessboard);

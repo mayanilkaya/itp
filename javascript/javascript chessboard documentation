@@ -1,0 +1,4 @@
+I wanted to start by just printing a hashtag : console.log ("#") just to see if it works.
+
+I went back to reading the assignment. If "size" is going to change the width and the height, I need a pop up
+that asks what size.

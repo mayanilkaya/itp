@@ -1,0 +1,60 @@
+  # # # ## # # #  # # # ## # # #  # # # ## # # #  # # # ## # # # 
+Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factor'.
+Third-party cookie will be blocked. Learn more in the Issues tab.
+Third-party cookie will be blocked. Learn more in the Issues tab.
+Third-party cookie will be blocked. Learn more in the Issues tab.
+Third-party cookie will be blocked. Learn more in the Issues tab.
+Third-party cookie will be blocked. Learn more in the Issues tab.
+let size = 8;
+
+let board = "";
+
+for (let y = 0; y < size; y++) {
+  for (let x = 0; x < size; x++) {
+    if ((x + y) % 2 == 0) {
+      board += " ";
+    } else {
+      board += "#";
+    }
+  }
+  board += "\n";
+}
+
+console.log(board);
+VM4323:16  # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # # 
+
+undefined
+  let size = 8;
+
+  let chessboard = "";
+
+  for (let y = 0; y < size; y++) {
+    for (let x = 0; x < size; x++) {
+      if ((x + y) % 2 == 0) {
+        chessboard += " ";
+      } else {
+        chessboard += "#";
+      }
+    }
+    chessboard += "\n";
+  }
+
+  console.log(chessboard);
+
+VM4327:16  # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # # 
+
+undefined
